@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Exercicio_1;
+
+Console.WriteLine($"O total do somatório é: {Somatorio.TotalDaSoma()}");
+Console.ReadLine();
