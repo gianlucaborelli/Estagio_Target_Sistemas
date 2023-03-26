@@ -1,6 +1,6 @@
 ﻿using Exercicio_2;
 
-bool Finaliza = false;
+bool finalizarExecucao = false;
 
 Console.WriteLine("Este projeto verifica se o valor inteiro digitado pertence a seguencia de Fibonacci.");
 
@@ -33,10 +33,10 @@ do
     ConsoleKeyInfo keyInfo = Console.ReadKey();
     if (keyInfo.Key != ConsoleKey.Enter)
     {
-        Finaliza = false;
+        finalizarExecucao = false;
     }
 
     Console.Clear();
 
-} while(Finaliza==false);
+} while(finalizarExecucao == false);
 
