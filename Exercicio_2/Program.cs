@@ -2,11 +2,11 @@
 
 bool finalizarExecucao = false;
 
-Console.WriteLine("Este projeto verifica se o valor inteiro digitado pertence a seguencia de Fibonacci.");
+Console.WriteLine("Este projeto verifica se o valor inteiro digitado pertence a seguencia de Fibonacci.\n");
 
 do
 {
-    Console.WriteLine("Qual o valor que gostaria de verificar se pertence a Sequencia de Fibonacci?");
+    Console.WriteLine("Qual o valor que gostaria de verificar se pertence a Sequencia de Fibonacci?\n");
 
     int valor;
     try
@@ -21,11 +21,11 @@ do
 
     if (Fibonacci.IsFibonacci(valor))
     {
-        Console.WriteLine("O número escolhido PERTENCE à sequência de Fibonacci.");
+        Console.WriteLine("O número escolhido PERTENCE à sequência de Fibonacci.\n");
     }
     else
     {
-        Console.WriteLine("O número escolhido NÃO PERTENCE à sequência de Fibonacci.");
+        Console.WriteLine("O número escolhido NÃO PERTENCE à sequência de Fibonacci.\n");
     }
 
     Console.WriteLine("Deseja verificar um novo número?\nTecle ENTER para repetir:");
